@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+    font-family: 'Titillium Web',
+        sans-serif;
+}
+
+
+.header-area {
+    background: #86509C;
+    padding: 60px 0;
+
+
+}
+
+.header-top {
+    overflow: hidden;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.logo-area {
+    width: 20%;
+    float: left;
+}
+
+.menu-area {
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.menu-area ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-area ul li {
+    display: inline-block;
+}
+
+.menu-area ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 5px;
+    display: block;
+    transition: 0.5s;
+}
+
+.menu-area ul .active a {
+    background: #643A7A;
+}
+
+.menu-area ul li:hover a {
+    background: #643A7A;
+}
+
+.header-middle {
+    margin: auto;
+
+}
+
+.header-middle p {
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+
+}
+
+.header-middle {
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+
+.header-bottom {
+    padding-bottom: 60px;
+}
+
+.header-bottom a {
+    background: #EC7C4A;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom: 4px solid #c86a40;
+    width: 20%;
+    margin: auto;
+    display: block;
+
+
+}
+
+/* end header area */
